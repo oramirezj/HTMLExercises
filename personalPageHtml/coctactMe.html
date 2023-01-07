@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>My Contact Details</h1>
+    </header>
+    <main>
+        <table cellspacing="10px">
+            <tr>
+                <div>
+                    <ul type="none">
+                        <li>La Piedad, Michoacán</li>
+                        <li>Phone +52 (352) 5 01 00 46</li>
+                        <li>E-mail: lic.omar.r.j@gmail.com</li>
+                    </ul>
+                </div>
+            </tr>
+        </table>
+        <table cellspacing="10px">
+            <tr>
+                <td width="10px"></td>
+                <td>
+                    <form action="mailto:lic.omar.r.j@gmail.com"
+                        method="post"
+                        enctype="text/plain">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" value="" id="name"><br>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone"><br>
+                        <label for="e-mail">E-mail</label>
+                        <input type="email" name="email" id="e-mail"><br>
+                        <label for="message">Your Message</label><br>
+                        <textarea name="message" rows="10" cols="40" id="message"></textarea><br>
+                        <input type="submit" name="submit">
+                        <button type="reset">Reset</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <nav>
+            <ul type="none">
+                <h3><li><a href="./index.html">Home</a></li></h3>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
